@@ -1,0 +1,322 @@
+@layer components{
+    .plain-primary {
+            @apply bg-transparent hover:bg-bosch-gray-90 active:bg-bosch-gray-80 text-bosch-black hover:text-bosch-black active:text-bosch-black focus:bg-bosch-blue-95 focus:text-bosch-black disabled:bg-transparent disabled:text-bosch-gray-80 dark:bg-transparent dark:hover:bg-bosch-gray-20 dark:active:bg-bosch-gray-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white dark:focus:bg-bosch-blue-15 dark:focus:text-bosch-white dark:disabled:bg-transparent dark:disabled:text-bosch-gray-30 
+        }
+
+    .plain-secondary {
+            @apply bg-transparent hover:bg-bosch-gray-85 active:bg-bosch-gray-75 text-bosch-black hover:text-bosch-black active:text-bosch-black focus:bg-bosch-blue-90 focus:text-bosch-black disabled:bg-transparent disabled:text-bosch-gray-75 dark:bg-transparent dark:hover:bg-bosch-gray-15 dark:active:bg-bosch-gray-25 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white dark:focus:bg-bosch-blue-10 dark:focus:text-bosch-white dark:disabled:bg-transparent dark:disabled:text-bosch-gray-25 
+        }
+
+    .plain-contrast {
+            @apply bg-transparent hover:bg-bosch-gray-30 active:bg-bosch-gray-40 text-bosch-white hover:text-bosch-white active:text-bosch-white focus:bg-bosch-blue-25 focus:text-bosch-white disabled:bg-transparent disabled:text-bosch-gray-40 dark:bg-transparent dark:hover:bg-bosch-gray-30 dark:active:bg-bosch-gray-40 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white dark:focus:bg-bosch-blue-25 dark:focus:text-bosch-white dark:disabled:bg-transparent dark:disabled:text-bosch-gray-40 
+        }
+
+    .plain-floating {
+            @apply bg-transparent hover:bg-bosch-gray-90 active:bg-bosch-gray-80 text-bosch-black hover:text-bosch-black active:text-bosch-black focus:bg-bosch-blue-95 focus:text-bosch-black disabled:bg-transparent disabled:text-bosch-gray-80 dark:bg-transparent dark:hover:bg-bosch-gray-25 dark:active:bg-bosch-gray-35 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white dark:focus:bg-bosch-blue-20 dark:focus:text-bosch-white dark:disabled:bg-transparent dark:disabled:text-bosch-gray-35 
+        }
+
+    .neutral-primary {
+            @apply bg-bosch-gray-90 hover:bg-bosch-gray-80 active:bg-bosch-gray-70 text-bosch-black hover:text-bosch-black active:text-bosch-black focus:bg-bosch-blue-90 focus:text-bosch-black disabled:bg-bosch-gray-90 disabled:text-bosch-gray-70 dark:bg-bosch-gray-20 dark:hover:bg-bosch-gray-30 dark:active:bg-bosch-gray-40 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white dark:focus:bg-bosch-blue-20 dark:focus:text-bosch-white dark:disabled:bg-bosch-gray-20 dark:disabled:text-bosch-gray-40 
+        }
+
+    .neutral-secondary {
+            @apply bg-bosch-gray-85 hover:bg-bosch-gray-75 active:bg-bosch-gray-65 text-bosch-black hover:text-bosch-black active:text-bosch-black focus:bg-bosch-blue-85 focus:text-bosch-black disabled:bg-bosch-gray-85 disabled:text-bosch-gray-65 dark:bg-bosch-gray-15 dark:hover:bg-bosch-gray-25 dark:active:bg-bosch-gray-35 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white dark:focus:bg-bosch-blue-15 dark:focus:text-bosch-white dark:disabled:bg-bosch-gray-15 dark:disabled:text-bosch-gray-35 
+        }
+
+    .neutral-contrast {
+            @apply bg-bosch-gray-30 hover:bg-bosch-gray-40 active:bg-bosch-gray-50 text-bosch-white hover:text-bosch-white active:text-bosch-white focus:bg-bosch-blue-30 focus:text-bosch-white disabled:bg-bosch-gray-30 disabled:text-bosch-gray-50 dark:bg-bosch-gray-30 dark:hover:bg-bosch-gray-40 dark:active:bg-bosch-gray-50 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white dark:focus:bg-bosch-blue-30 dark:focus:text-bosch-white dark:disabled:bg-bosch-gray-30 dark:disabled:text-bosch-gray-50 
+        }
+
+    .neutral-floating {
+            @apply bg-bosch-gray-90 hover:bg-bosch-gray-80 active:bg-bosch-gray-70 text-bosch-black hover:text-bosch-black active:text-bosch-black focus:bg-bosch-blue-90 focus:text-bosch-black disabled:bg-bosch-gray-90 disabled:text-bosch-gray-70 dark:bg-bosch-gray-25 dark:hover:bg-bosch-gray-35 dark:active:bg-bosch-gray-45 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white dark:focus:bg-bosch-blue-25 dark:focus:text-bosch-white dark:disabled:bg-bosch-gray-25 dark:disabled:text-bosch-gray-45 
+        }
+
+    .small-primary {
+            @apply bg-bosch-gray-60 hover:bg-bosch-gray-50 active:bg-bosch-gray-40 text-bosch-white hover:text-bosch-white active:text-bosch-white disabled:bg-bosch-gray-90 disabled:text-bosch-gray-70 dark:bg-bosch-gray-50 dark:hover:bg-bosch-gray-40 dark:active:bg-bosch-gray-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white dark:disabled:bg-bosch-gray-20 dark:disabled:text-bosch-gray-40 
+        }
+
+    .small-secondary {
+            @apply bg-bosch-gray-55 hover:bg-bosch-gray-45 active:bg-bosch-gray-35 text-bosch-white hover:text-bosch-white active:text-bosch-white disabled:bg-bosch-gray-85 disabled:text-bosch-gray-65 dark:bg-bosch-gray-45 dark:hover:bg-bosch-gray-35 dark:active:bg-bosch-gray-25 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white dark:disabled:bg-bosch-gray-15 dark:disabled:text-bosch-gray-35 
+        }
+
+    .small-contrast {
+            @apply bg-bosch-gray-50 hover:bg-bosch-gray-40 active:bg-bosch-gray-30 text-bosch-white hover:text-bosch-white active:text-bosch-white disabled:bg-bosch-gray-30 disabled:text-bosch-gray-50 dark:bg-bosch-gray-50 dark:hover:bg-bosch-gray-40 dark:active:bg-bosch-gray-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white dark:disabled:bg-bosch-gray-30 dark:disabled:text-bosch-gray-50 
+        }
+
+    .small-floating {
+            @apply bg-bosch-gray-60 hover:bg-bosch-gray-50 active:bg-bosch-gray-40 text-bosch-white hover:text-bosch-white active:text-bosch-white disabled:bg-bosch-gray-90 disabled:text-bosch-gray-70 dark:bg-bosch-gray-45 dark:hover:bg-bosch-gray-35 dark:active:bg-bosch-gray-25 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white dark:disabled:bg-bosch-gray-25 dark:disabled:text-bosch-gray-45 
+        }
+
+    .integrated-primary {
+            @apply bg-transparent hover:bg-transparent active:bg-transparent text-bosch-black hover:text-bosch-blue-50 active:text-bosch-blue-40 disabled:bg-transparent disabled:text-bosch-gray-80 dark:bg-transparent dark:hover:bg-transparent dark:active:bg-transparent dark:text-bosch-white dark:hover:text-bosch-blue-60 dark:active:text-bosch-blue-70 dark:disabled:bg-transparent dark:disabled:text-bosch-gray-30 
+        }
+
+    .integrated-secondary {
+            @apply bg-transparent hover:bg-transparent active:bg-transparent text-bosch-black hover:text-bosch-blue-45 active:text-bosch-blue-35 disabled:bg-transparent disabled:text-bosch-gray-75 dark:bg-transparent dark:hover:bg-transparent dark:active:bg-transparent dark:text-bosch-white dark:hover:text-bosch-blue-55 dark:active:text-bosch-blue-65 dark:disabled:bg-transparent dark:disabled:text-bosch-gray-25 
+        }
+
+    .integrated-contrast {
+            @apply bg-transparent hover:bg-transparent active:bg-transparent text-bosch-white hover:text-bosch-blue-70 active:text-bosch-blue-80 disabled:bg-transparent disabled:text-bosch-gray-40 dark:bg-transparent dark:hover:bg-transparent dark:active:bg-transparent dark:text-bosch-white dark:hover:text-bosch-blue-70 dark:active:text-bosch-blue-80 dark:disabled:bg-transparent dark:disabled:text-bosch-gray-40 
+        }
+
+    .integrated-floating {
+            @apply bg-transparent hover:bg-transparent active:bg-transparent text-bosch-black hover:text-bosch-blue-50 active:text-bosch-blue-40 disabled:bg-transparent disabled:text-bosch-gray-80 dark:bg-transparent dark:hover:bg-transparent dark:active:bg-transparent dark:text-bosch-white dark:hover:text-bosch-blue-65 dark:active:text-bosch-blue-75 dark:disabled:bg-transparent dark:disabled:text-bosch-gray-35 
+        }
+
+    .minor-accent-primary {
+            @apply bg-transparent hover:bg-bosch-blue-90 active:bg-bosch-blue-80 text-bosch-blue-50 hover:text-bosch-blue-40 active:text-bosch-blue-30 disabled:bg-transparent disabled:text-bosch-gray-80 dark:bg-transparent dark:hover:bg-bosch-blue-20 dark:active:bg-bosch-blue-30 dark:text-bosch-blue-60 dark:hover:text-bosch-blue-70 dark:active:text-bosch-blue-80 dark:disabled:bg-transparent dark:disabled:text-bosch-gray-30 
+        }
+
+    .minor-accent-secondary {
+            @apply bg-transparent hover:bg-bosch-blue-85 active:bg-bosch-blue-75 text-bosch-blue-45 hover:text-bosch-blue-35 active:text-bosch-blue-25 disabled:bg-transparent disabled:text-bosch-gray-75 dark:bg-transparent dark:hover:bg-bosch-blue-15 dark:active:bg-bosch-blue-25 dark:text-bosch-blue-55 dark:hover:text-bosch-blue-65 dark:active:text-bosch-blue-75 dark:disabled:bg-transparent dark:disabled:text-bosch-gray-25 
+        }
+
+    .minor-accent-contrast {
+            @apply bg-transparent hover:bg-bosch-blue-30 active:bg-bosch-blue-40 text-bosch-blue-70 hover:text-bosch-blue-80 active:text-bosch-blue-90 disabled:bg-transparent disabled:text-bosch-gray-40 dark:bg-transparent dark:hover:bg-bosch-blue-30 dark:active:bg-bosch-blue-40 dark:text-bosch-blue-70 dark:hover:text-bosch-blue-80 dark:active:text-bosch-blue-90 dark:disabled:bg-transparent dark:disabled:text-bosch-gray-40 
+        }
+
+    .minor-accent-floating {
+            @apply bg-transparent hover:bg-bosch-blue-90 active:bg-bosch-blue-80 text-bosch-blue-50 hover:text-bosch-blue-40 active:text-bosch-blue-30 disabled:bg-transparent disabled:text-bosch-gray-80 dark:bg-transparent dark:hover:bg-bosch-blue-25 dark:active:bg-bosch-blue-35 dark:text-bosch-blue-65 dark:hover:text-bosch-blue-75 dark:active:text-bosch-blue-85 dark:disabled:bg-transparent dark:disabled:text-bosch-gray-35 
+        }
+
+    .major-accent-primary {
+            @apply bg-bosch-blue-50 hover:bg-bosch-blue-40 active:bg-bosch-blue-30 text-bosch-white hover:text-bosch-white active:text-bosch-white disabled:bg-bosch-gray-80 disabled:text-bosch-gray-60 dark:bg-bosch-blue-50 dark:hover:bg-bosch-blue-40 dark:active:bg-bosch-blue-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white dark:disabled:bg-bosch-gray-30 dark:disabled:text-bosch-gray-50 
+        }
+
+    .major-accent-secondary {
+            @apply bg-bosch-blue-50 hover:bg-bosch-blue-40 active:bg-bosch-blue-30 text-bosch-white hover:text-bosch-white active:text-bosch-white disabled:bg-bosch-gray-75 disabled:text-bosch-gray-55 dark:bg-bosch-blue-50 dark:hover:bg-bosch-blue-40 dark:active:bg-bosch-blue-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white dark:disabled:bg-bosch-gray-25 dark:disabled:text-bosch-gray-45 
+        }
+
+    .major-accent-contrast {
+            @apply bg-bosch-blue-50 hover:bg-bosch-blue-40 active:bg-bosch-blue-30 text-bosch-white hover:text-bosch-white active:text-bosch-white disabled:bg-bosch-gray-40 disabled:text-bosch-gray-60 dark:bg-bosch-blue-50 dark:hover:bg-bosch-blue-40 dark:active:bg-bosch-blue-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white dark:disabled:bg-bosch-gray-40 dark:disabled:text-bosch-gray-60 
+        }
+
+    .major-accent-floating {
+            @apply bg-bosch-blue-50 hover:bg-bosch-blue-40 active:bg-bosch-blue-30 text-bosch-white hover:text-bosch-white active:text-bosch-white disabled:bg-bosch-gray-80 disabled:text-bosch-gray-60 dark:bg-bosch-blue-50 dark:hover:bg-bosch-blue-40 dark:active:bg-bosch-blue-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white dark:disabled:bg-bosch-gray-35 dark:disabled:text-bosch-gray-55 
+        }
+
+    .minor-signal-neutral-primary {
+            @apply bg-bosch-blue-90 hover:bg-bosch-blue-80 active:bg-bosch-blue-70 text-bosch-black hover:text-bosch-black active:text-bosch-black dark:bg-bosch-blue-20 dark:hover:bg-bosch-blue-30 dark:active:bg-bosch-blue-40 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .minor-signal-neutral-secondary {
+            @apply bg-bosch-blue-85 hover:bg-bosch-blue-75 active:bg-bosch-blue-65 text-bosch-black hover:text-bosch-black active:text-bosch-black dark:bg-bosch-blue-15 dark:hover:bg-bosch-blue-25 dark:active:bg-bosch-blue-35 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .minor-signal-neutral-contrast {
+            @apply bg-bosch-blue-30 hover:bg-bosch-blue-40 active:bg-bosch-blue-50 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-blue-30 dark:hover:bg-bosch-blue-40 dark:active:bg-bosch-blue-50 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .minor-signal-neutral-floating {
+            @apply bg-bosch-blue-90 hover:bg-bosch-blue-80 active:bg-bosch-blue-70 text-bosch-black hover:text-bosch-black active:text-bosch-black dark:bg-bosch-blue-25 dark:hover:bg-bosch-blue-35 dark:active:bg-bosch-blue-45 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .minor-signal-success-primary {
+            @apply bg-bosch-green-90 hover:bg-bosch-green-80 active:bg-bosch-green-70 text-bosch-black hover:text-bosch-black active:text-bosch-black dark:bg-bosch-green-20 dark:hover:bg-bosch-green-30 dark:active:bg-bosch-green-40 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .minor-signal-success-secondary {
+            @apply bg-bosch-green-85 hover:bg-bosch-green-75 active:bg-bosch-green-65 text-bosch-black hover:text-bosch-black active:text-bosch-black dark:bg-bosch-green-15 dark:hover:bg-bosch-green-25 dark:active:bg-bosch-green-35 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .minor-signal-success-contrast {
+            @apply bg-bosch-green-30 hover:bg-bosch-green-40 active:bg-bosch-green-50 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-green-30 dark:hover:bg-bosch-green-40 dark:active:bg-bosch-green-50 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .minor-signal-success-floating {
+            @apply bg-bosch-green-90 hover:bg-bosch-green-80 active:bg-bosch-green-70 text-bosch-black hover:text-bosch-black active:text-bosch-black dark:bg-bosch-green-25 dark:hover:bg-bosch-green-35 dark:active:bg-bosch-green-45 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-signal-neutral-primary {
+            @apply bg-bosch-blue-50 hover:bg-bosch-blue-40 active:bg-bosch-blue-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-blue-50 dark:hover:bg-bosch-blue-40 dark:active:bg-bosch-blue-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-signal-neutral-secondary {
+            @apply bg-bosch-blue-50 hover:bg-bosch-blue-40 active:bg-bosch-blue-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-blue-50 dark:hover:bg-bosch-blue-40 dark:active:bg-bosch-blue-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-signal-neutral-contrast {
+            @apply bg-bosch-blue-50 hover:bg-bosch-blue-40 active:bg-bosch-blue-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-blue-50 dark:hover:bg-bosch-blue-40 dark:active:bg-bosch-blue-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-signal-neutral-floating {
+            @apply bg-bosch-blue-50 hover:bg-bosch-blue-40 active:bg-bosch-blue-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-blue-50 dark:hover:bg-bosch-blue-40 dark:active:bg-bosch-blue-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-signal-error-primary {
+            @apply bg-bosch-red-50 hover:bg-bosch-red-40 active:bg-bosch-red-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-red-50 dark:hover:bg-bosch-red-40 dark:active:bg-bosch-red-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-signal-error-secondary {
+            @apply bg-bosch-red-50 hover:bg-bosch-red-40 active:bg-bosch-red-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-red-50 dark:hover:bg-bosch-red-40 dark:active:bg-bosch-red-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-signal-error-contrast {
+            @apply bg-bosch-red-50 hover:bg-bosch-red-40 active:bg-bosch-red-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-red-50 dark:hover:bg-bosch-red-40 dark:active:bg-bosch-red-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-signal-error-floating {
+            @apply bg-bosch-red-50 hover:bg-bosch-red-40 active:bg-bosch-red-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-red-50 dark:hover:bg-bosch-red-40 dark:active:bg-bosch-red-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-signal-warning-primary {
+            @apply bg-bosch-yellow-85 hover:bg-bosch-yellow-75 active:bg-bosch-yellow-65 text-bosch-black hover:text-bosch-black active:text-bosch-black dark:bg-bosch-yellow-85 dark:hover:bg-bosch-yellow-95 dark:active:bg-bosch-white dark:text-bosch-black dark:hover:text-bosch-black dark:active:text-bosch-black 
+        }
+
+    .major-signal-warning-secondary {
+            @apply bg-bosch-yellow-85 hover:bg-bosch-yellow-75 active:bg-bosch-yellow-65 text-bosch-black hover:text-bosch-black active:text-bosch-black dark:bg-bosch-yellow-85 dark:hover:bg-bosch-yellow-95 dark:active:bg-bosch-white dark:text-bosch-black dark:hover:text-bosch-black dark:active:text-bosch-black 
+        }
+
+    .major-signal-warning-contrast {
+            @apply bg-bosch-yellow-85 hover:bg-bosch-yellow-95 active:bg-bosch-white text-bosch-black hover:text-bosch-black active:text-bosch-black dark:bg-bosch-yellow-85 dark:hover:bg-bosch-yellow-95 dark:active:bg-bosch-white dark:text-bosch-black dark:hover:text-bosch-black dark:active:text-bosch-black 
+        }
+
+    .major-signal-warning-floating {
+            @apply bg-bosch-yellow-85 hover:bg-bosch-yellow-75 active:bg-bosch-yellow-65 text-bosch-black hover:text-bosch-black active:text-bosch-black dark:bg-bosch-yellow-85 dark:hover:bg-bosch-yellow-95 dark:active:bg-bosch-white dark:text-bosch-black dark:hover:text-bosch-black dark:active:text-bosch-black 
+        }
+
+    .major-signal-success-primary {
+            @apply bg-bosch-green-50 hover:bg-bosch-green-40 active:bg-bosch-green-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-green-50 dark:hover:bg-bosch-green-40 dark:active:bg-bosch-green-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-signal-success-secondary {
+            @apply bg-bosch-green-50 hover:bg-bosch-green-40 active:bg-bosch-green-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-green-50 dark:hover:bg-bosch-green-40 dark:active:bg-bosch-green-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-signal-success-contrast {
+            @apply bg-bosch-green-50 hover:bg-bosch-green-40 active:bg-bosch-green-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-green-50 dark:hover:bg-bosch-green-40 dark:active:bg-bosch-green-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-signal-success-floating {
+            @apply bg-bosch-green-50 hover:bg-bosch-green-40 active:bg-bosch-green-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-green-50 dark:hover:bg-bosch-green-40 dark:active:bg-bosch-green-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .minor-highlight-purple-primary {
+            @apply bg-transparent hover:bg-bosch-purple-90 active:bg-bosch-purple-80 text-bosch-purple-40 hover:text-bosch-purple-30 active:text-bosch-purple-20 dark:bg-transparent dark:hover:bg-bosch-purple-20 dark:active:bg-bosch-purple-30 dark:text-bosch-purple-60 dark:hover:text-bosch-purple-70 dark:active:text-bosch-purple-80 
+        }
+
+    .minor-highlight-purple-secondary {
+            @apply bg-transparent hover:bg-bosch-purple-85 active:bg-bosch-purple-75 text-bosch-purple-40 hover:text-bosch-purple-30 active:text-bosch-purple-20 dark:bg-transparent dark:hover:bg-bosch-purple-15 dark:active:bg-bosch-purple-25 dark:text-bosch-purple-55 dark:hover:text-bosch-purple-65 dark:active:text-bosch-purple-75 
+        }
+
+    .minor-highlight-purple-contrast {
+            @apply bg-transparent hover:bg-bosch-purple-30 active:bg-bosch-purple-40 text-bosch-purple-70 hover:text-bosch-purple-80 active:text-bosch-purple-90 dark:bg-transparent dark:hover:bg-bosch-purple-30 dark:active:bg-bosch-purple-40 dark:text-bosch-purple-70 dark:hover:text-bosch-purple-80 dark:active:text-bosch-purple-90 
+        }
+
+    .minor-highlight-purple-floating {
+            @apply bg-transparent hover:bg-bosch-purple-90 active:bg-bosch-purple-80 text-bosch-purple-40 hover:text-bosch-purple-30 active:text-bosch-purple-20 dark:bg-transparent dark:hover:bg-bosch-purple-25 dark:active:bg-bosch-purple-35 dark:text-bosch-purple-65 dark:hover:text-bosch-purple-75 dark:active:text-bosch-purple-85 
+        }
+
+    .minor-highlight-blue-primary {
+            @apply bg-transparent hover:bg-bosch-blue-90 active:bg-bosch-blue-80 text-bosch-blue-50 hover:text-bosch-blue-40 active:text-bosch-blue-30 dark:bg-transparent dark:hover:bg-bosch-blue-20 dark:active:bg-bosch-blue-30 dark:text-bosch-blue-60 dark:hover:text-bosch-blue-70 dark:active:text-bosch-blue-80 
+        }
+
+    .minor-highlight-blue-secondary {
+            @apply bg-transparent hover:bg-bosch-blue-85 active:bg-bosch-blue-75 text-bosch-blue-45 hover:text-bosch-blue-35 active:text-bosch-blue-25 dark:bg-transparent dark:hover:bg-bosch-blue-15 dark:active:bg-bosch-blue-25 dark:text-bosch-blue-55 dark:hover:text-bosch-blue-65 dark:active:text-bosch-blue-75 
+        }
+
+    .minor-highlight-blue-contrast {
+            @apply bg-transparent hover:bg-bosch-blue-30 active:bg-bosch-blue-40 text-bosch-blue-70 hover:text-bosch-blue-80 active:text-bosch-blue-90 dark:bg-transparent dark:hover:bg-bosch-blue-30 dark:active:bg-bosch-blue-40 dark:text-bosch-blue-70 dark:hover:text-bosch-blue-80 dark:active:text-bosch-blue-90 
+        }
+
+    .minor-highlight-blue-floating {
+            @apply bg-transparent hover:bg-bosch-blue-90 active:bg-bosch-blue-80 text-bosch-blue-50 hover:text-bosch-blue-40 active:text-bosch-blue-30 dark:bg-transparent dark:hover:bg-bosch-blue-25 dark:active:bg-bosch-blue-35 dark:text-bosch-blue-65 dark:hover:text-bosch-blue-75 dark:active:text-bosch-blue-85 
+        }
+
+    .minor-highlight-turquoise-primary {
+            @apply bg-transparent hover:bg-bosch-turquoise-90 active:bg-bosch-turquoise-80 text-bosch-turquoise-50 hover:text-bosch-turquoise-40 active:text-bosch-turquoise-30 dark:bg-transparent dark:hover:bg-bosch-turquoise-20 dark:active:bg-bosch-turquoise-30 dark:text-bosch-turquoise-60 dark:hover:text-bosch-turquoise-70 dark:active:text-bosch-turquoise-80 
+        }
+
+    .minor-highlight-turquoise-secondary {
+            @apply bg-transparent hover:bg-bosch-turquoise-85 active:bg-bosch-turquoise-75 text-bosch-turquoise-45 hover:text-bosch-turquoise-35 active:text-bosch-turquoise-25 dark:bg-transparent dark:hover:bg-bosch-turquoise-15 dark:active:bg-bosch-turquoise-25 dark:text-bosch-turquoise-55 dark:hover:text-bosch-turquoise-65 dark:active:text-bosch-turquoise-75 
+        }
+
+    .minor-highlight-turquoise-contrast {
+            @apply bg-transparent hover:bg-bosch-turquoise-30 active:bg-bosch-turquoise-40 text-bosch-turquoise-70 hover:text-bosch-turquoise-80 active:text-bosch-turquoise-90 dark:bg-transparent dark:hover:bg-bosch-turquoise-30 dark:active:bg-bosch-turquoise-40 dark:text-bosch-turquoise-70 dark:hover:text-bosch-turquoise-80 dark:active:text-bosch-turquoise-90 
+        }
+
+    .minor-highlight-turquoise-floating {
+            @apply bg-transparent hover:bg-bosch-turquoise-90 active:bg-bosch-turquoise-80 text-bosch-turquoise-50 hover:text-bosch-turquoise-40 active:text-bosch-turquoise-30 dark:bg-transparent dark:hover:bg-bosch-turquoise-25 dark:active:bg-bosch-turquoise-35 dark:text-bosch-turquoise-65 dark:hover:text-bosch-turquoise-75 dark:active:text-bosch-turquoise-85 
+        }
+
+    .minor-highlight-green-primary {
+            @apply bg-transparent hover:bg-bosch-green-90 active:bg-bosch-green-80 text-bosch-green-50 hover:text-bosch-green-40 active:text-bosch-green-30 dark:bg-transparent dark:hover:bg-bosch-green-20 dark:active:bg-bosch-green-30 dark:text-bosch-green-60 dark:hover:text-bosch-green-70 dark:active:text-bosch-green-80 
+        }
+
+    .minor-highlight-green-secondary {
+            @apply bg-transparent hover:bg-bosch-green-85 active:bg-bosch-green-75 text-bosch-green-45 hover:text-bosch-green-35 active:text-bosch-green-25 dark:bg-transparent dark:hover:bg-bosch-green-15 dark:active:bg-bosch-green-25 dark:text-bosch-green-55 dark:hover:text-bosch-green-65 dark:active:text-bosch-green-75 
+        }
+
+    .minor-highlight-green-contrast {
+            @apply bg-transparent hover:bg-bosch-green-30 active:bg-bosch-green-40 text-bosch-green-70 hover:text-bosch-green-80 active:text-bosch-green-90 dark:bg-transparent dark:hover:bg-bosch-green-30 dark:active:bg-bosch-green-40 dark:text-bosch-green-70 dark:hover:text-bosch-green-80 dark:active:text-bosch-green-90 
+        }
+
+    .minor-highlight-green-floating {
+            @apply bg-transparent hover:bg-bosch-green-90 active:bg-bosch-green-80 text-bosch-green-50 hover:text-bosch-green-40 active:text-bosch-green-30 dark:bg-transparent dark:hover:bg-bosch-green-25 dark:active:bg-bosch-green-35 dark:text-bosch-green-65 dark:hover:text-bosch-green-75 dark:active:text-bosch-green-85 
+        }
+
+    .major-highlight-purple-primary {
+            @apply bg-bosch-purple-40 hover:bg-bosch-purple-30 active:bg-bosch-purple-20 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-purple-40 dark:hover:bg-bosch-purple-30 dark:active:bg-bosch-purple-20 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-highlight-purple-secondary {
+            @apply bg-bosch-purple-40 hover:bg-bosch-purple-30 active:bg-bosch-purple-20 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-purple-40 dark:hover:bg-bosch-purple-30 dark:active:bg-bosch-purple-20 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-highlight-purple-contrast {
+            @apply bg-bosch-purple-40 hover:bg-bosch-purple-30 active:bg-bosch-purple-20 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-purple-40 dark:hover:bg-bosch-purple-30 dark:active:bg-bosch-purple-20 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-highlight-purple-floating {
+            @apply bg-bosch-purple-40 hover:bg-bosch-purple-30 active:bg-bosch-purple-20 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-purple-40 dark:hover:bg-bosch-purple-30 dark:active:bg-bosch-purple-20 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-highlight-blue-primary {
+            @apply bg-bosch-blue-50 hover:bg-bosch-blue-40 active:bg-bosch-blue-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-blue-50 dark:hover:bg-bosch-blue-40 dark:active:bg-bosch-blue-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-highlight-blue-secondary {
+            @apply bg-bosch-blue-50 hover:bg-bosch-blue-40 active:bg-bosch-blue-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-blue-50 dark:hover:bg-bosch-blue-40 dark:active:bg-bosch-blue-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-highlight-blue-contrast {
+            @apply bg-bosch-blue-50 hover:bg-bosch-blue-40 active:bg-bosch-blue-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-blue-50 dark:hover:bg-bosch-blue-40 dark:active:bg-bosch-blue-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-highlight-blue-floating {
+            @apply bg-bosch-blue-50 hover:bg-bosch-blue-40 active:bg-bosch-blue-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-blue-50 dark:hover:bg-bosch-blue-40 dark:active:bg-bosch-blue-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-highlight-turquoise-primary {
+            @apply bg-bosch-turquoise-50 hover:bg-bosch-turquoise-40 active:bg-bosch-turquoise-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-turquoise-50 dark:hover:bg-bosch-turquoise-40 dark:active:bg-bosch-turquoise-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-highlight-turquoise-secondary {
+            @apply bg-bosch-turquoise-50 hover:bg-bosch-turquoise-40 active:bg-bosch-turquoise-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-turquoise-50 dark:hover:bg-bosch-turquoise-40 dark:active:bg-bosch-turquoise-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-highlight-turquoise-contrast {
+            @apply bg-bosch-turquoise-50 hover:bg-bosch-turquoise-40 active:bg-bosch-turquoise-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-turquoise-50 dark:hover:bg-bosch-turquoise-40 dark:active:bg-bosch-turquoise-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-highlight-turquoise-floating {
+            @apply bg-bosch-turquoise-50 hover:bg-bosch-turquoise-40 active:bg-bosch-turquoise-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-turquoise-50 dark:hover:bg-bosch-turquoise-40 dark:active:bg-bosch-turquoise-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-highlight-green-primary {
+            @apply bg-bosch-green-50 hover:bg-bosch-green-40 active:bg-bosch-green-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-green-50 dark:hover:bg-bosch-green-40 dark:active:bg-bosch-green-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-highlight-green-secondary {
+            @apply bg-bosch-green-50 hover:bg-bosch-green-40 active:bg-bosch-green-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-green-50 dark:hover:bg-bosch-green-40 dark:active:bg-bosch-green-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-highlight-green-contrast {
+            @apply bg-bosch-green-50 hover:bg-bosch-green-40 active:bg-bosch-green-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-green-50 dark:hover:bg-bosch-green-40 dark:active:bg-bosch-green-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+    .major-highlight-green-floating {
+            @apply bg-bosch-green-50 hover:bg-bosch-green-40 active:bg-bosch-green-30 text-bosch-white hover:text-bosch-white active:text-bosch-white dark:bg-bosch-green-50 dark:hover:bg-bosch-green-40 dark:active:bg-bosch-green-30 dark:text-bosch-white dark:hover:text-bosch-white dark:active:text-bosch-white 
+        }
+
+}

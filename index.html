@@ -1,1 +1,35 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/icon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>%VITE_APP_TITLE%</title>
+    <style>
+        .form-wrap.form-builder .frmb-control li span{margin:1.5rem}
+        .form-wrap.form-builder .frmb-control li::before {
+          margin-right: 10px;
+          font-size: 16px;
+          top: 1rem;
+          left: 0.5rem;
+        }
+    </style>
+  </head>
+  <body>
+      <!-- <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
+      <script type="text/javascript" src="/node_modules/jquery-ui-sortable/jquery-ui.min.js"></script>
+      <script type="text/javascript" src="/node_modules/formBuilder/dist/form-builder.min.js"></script> -->
+
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>  -->
+
+      <script type="text/html" src="/jquery-ui.min.js"></script>
+      <script type="text/html" src="/jquery.min.js"></script>
+
+      <!-- <script src="http://formbuilder.online/assets/js/form-builder.min.js"></script> 
+      <script src="https://formbuilder.online/assets/js/form-render.min.js"></script> -->
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    
+  </body>
+</html>
